@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Sitemap"
-permalink: /sitemap/
+permalink: /skyframes/sitemap/
 author_profile: false
 ---
 
