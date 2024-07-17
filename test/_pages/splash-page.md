@@ -1,58 +1,49 @@
 ---
-title: "Splash Page"
+title: "Roberto's Aerial Photography"
 layout: splash
-permalink: /splash-page/
-date: 2016-03-23T11:48:41-04:00
+date: 2023-07-17
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_color: "#005f73"
+  overlay_filter: "0.7"
+  overlay_image: /assets/images/drone-view-landscape.jpg
   actions:
-    - label: "Learn More"
-      url: "/terms/"
+    - label: "View Portfolio"
+      url: "/portfolio/"
+    - label: "Contact Me"
+      url: "/contact/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+excerpt: "Professional drone photography showcasing breathtaking landscapes, stunning real estate, dynamic automotive scenes, and luxurious hotels."
+intro:
+  - excerpt: 'Explore the world from above with high-quality drone visuals, perfect for advertising, documentation, and personal projects.'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
+  - image_path: assets/images/landscape-drone.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+    alt: "Landscape aerial view"
+    title: "Landscape Photography"
+    excerpt: "Explore breathtaking natural scenes from a unique aerial perspective."
+    url: "/gallery-landscape/"
+    btn_label: "View Gallery"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/real-estate-drone.jpg
+    alt: "Real estate aerial view"
+    title: "Real Estate Photography"
+    excerpt: "Enhance real estate listings with detailed aerial imagery."
+    url: "/gallery-real-estate/"
+    btn_label: "View Gallery"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/automotive-drone.jpg
+    title: "Automotive Photography"
+    excerpt: "Capture dynamic images of automobiles in stunning locations."
+    url: "/gallery-automotive/"
+    btn_label: "View Gallery"
+    btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/luxury-hotel-drone.jpg
+    alt: "Luxury hotel aerial view"
+    title: "Luxury Hotel Promotions"
+    excerpt: 'Showcase the elegance and amenities of luxury hotels with aerial photography.'
+    url: "/gallery-luxury-hotels/"
+    btn_label: "View Gallery"
     btn_class: "btn--primary"
 ---
 
@@ -61,7 +52,3 @@ feature_row4:
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
