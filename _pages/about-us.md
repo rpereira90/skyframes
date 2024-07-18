@@ -1,7 +1,7 @@
 ---
-title: "Roberto's Drone Photography and Videography"
+title: "SkyFrames Drone Photography and Videography"
 excerpt: "Specializing in capturing stunning visuals from the skies - landscapes, real estates, automobiles, and luxury hotels."
-permalink: /about-me/
+permalink: /about-us/
 header:
   image: /assets/images/unsplash-gallery-image-1.jpg
   teaser: assets/images/unsplash-gallery-image-1-th.jpg
