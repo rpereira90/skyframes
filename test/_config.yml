@@ -97,7 +97,7 @@ author:
   location         : "Somewhere"
   links:
     - label: "Youtube"
-      icon: "fab fa-fw fa-youtube"
+      icon: "fa fa-fw fa-youtube"
       url: "https://your-site.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
@@ -108,7 +108,7 @@ author:
 footer:
   links:
     - label: "Youtube"
-      icon: "fab fa-fw fa-youtube"
+      icon: "fas fa-fw fa-youtube"
       url: "https://your-site.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
